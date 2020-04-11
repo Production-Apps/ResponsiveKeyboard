@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CEEAF524423C72002E5E44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEEAF424423C72002E5E44 /* AppDelegate.swift */; };
+		04CEEAF724423C72002E5E44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEEAF624423C72002E5E44 /* SceneDelegate.swift */; };
+		04CEEAF924423C72002E5E44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEEAF824423C72002E5E44 /* ViewController.swift */; };
+		04CEEAFC24423C72002E5E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CEEAFA24423C72002E5E44 /* Main.storyboard */; };
+		04CEEAFE24423C74002E5E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CEEAFD24423C74002E5E44 /* Assets.xcassets */; };
+		04CEEB0124423C74002E5E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CEEAFF24423C74002E5E44 /* LaunchScreen.storyboard */; };
+		04CEEB0C24423C74002E5E44 /* ResponsiveTFKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEEB0B24423C74002E5E44 /* ResponsiveTFKeyboardTests.swift */; };
+		04CEEB1724423C75002E5E44 /* ResponsiveTFKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEEB1624423C75002E5E44 /* ResponsiveTFKeyboardUITests.swift */; };
+		04CEEB4024423CF7002E5E44 /* ResponsiveTFKeyboardFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CEEB3F24423CE7002E5E44 /* ResponsiveTFKeyboardFramework.framework */; };
+		04CEEB4124423CF7002E5E44 /* ResponsiveTFKeyboardFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04CEEB3F24423CE7002E5E44 /* ResponsiveTFKeyboardFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04CEEB0824423C74002E5E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CEEAE924423C72002E5E44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CEEAF024423C72002E5E44;
+			remoteInfo = ResponsiveTFKeyboard;
+		};
+		04CEEB1324423C75002E5E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CEEAE924423C72002E5E44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CEEAF024423C72002E5E44;
+			remoteInfo = ResponsiveTFKeyboard;
+		};
+		04CEEB3E24423CE7002E5E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CEEB3A24423CE7002E5E44 /* ResponsiveTFKeyboardFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04CEEB2E24423CA1002E5E44;
+			remoteInfo = ResponsiveTFKeyboardFramework;
+		};
+		04CEEB4324423CFF002E5E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CEEB3A24423CE7002E5E44 /* ResponsiveTFKeyboardFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CEEB2D24423CA1002E5E44;
+			remoteInfo = ResponsiveTFKeyboardFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04CEEB4224423CF7002E5E44 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04CEEB4124423CF7002E5E44 /* ResponsiveTFKeyboardFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04CEEAF124423C72002E5E44 /* ResponsiveTFKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResponsiveTFKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CEEAF424423C72002E5E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04CEEAF624423C72002E5E44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04CEEAF824423C72002E5E44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04CEEAFB24423C72002E5E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CEEAFD24423C74002E5E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CEEB0024423C74002E5E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04CEEB0224423C74002E5E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CEEB0724423C74002E5E44 /* ResponsiveTFKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResponsiveTFKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CEEB0B24423C74002E5E44 /* ResponsiveTFKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsiveTFKeyboardTests.swift; sourceTree = "<group>"; };
+		04CEEB0D24423C75002E5E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CEEB1224423C75002E5E44 /* ResponsiveTFKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResponsiveTFKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CEEB1624423C75002E5E44 /* ResponsiveTFKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsiveTFKeyboardUITests.swift; sourceTree = "<group>"; };
+		04CEEB1824423C75002E5E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CEEB3A24423CE7002E5E44 /* ResponsiveTFKeyboardFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ResponsiveTFKeyboardFramework.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CEEAEE24423C72002E5E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CEEB4024423CF7002E5E44 /* ResponsiveTFKeyboardFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEEB0424423C74002E5E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEEB0F24423C75002E5E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CEEAE824423C72002E5E44 = {
+			isa = PBXGroup;
+			children = (
+				04CEEB3924423CD2002E5E44 /* Frameworks */,
+				04CEEAF324423C72002E5E44 /* ResponsiveTFKeyboard */,
+				04CEEB0A24423C74002E5E44 /* ResponsiveTFKeyboardTests */,
+				04CEEB1524423C75002E5E44 /* ResponsiveTFKeyboardUITests */,
+				04CEEAF224423C72002E5E44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04CEEAF224423C72002E5E44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CEEAF124423C72002E5E44 /* ResponsiveTFKeyboard.app */,
+				04CEEB0724423C74002E5E44 /* ResponsiveTFKeyboardTests.xctest */,
+				04CEEB1224423C75002E5E44 /* ResponsiveTFKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CEEAF324423C72002E5E44 /* ResponsiveTFKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				04CEEAF424423C72002E5E44 /* AppDelegate.swift */,
+				04CEEAF624423C72002E5E44 /* SceneDelegate.swift */,
+				04CEEAF824423C72002E5E44 /* ViewController.swift */,
+				04CEEAFA24423C72002E5E44 /* Main.storyboard */,
+				04CEEAFD24423C74002E5E44 /* Assets.xcassets */,
+				04CEEAFF24423C74002E5E44 /* LaunchScreen.storyboard */,
+				04CEEB0224423C74002E5E44 /* Info.plist */,
+			);
+			path = ResponsiveTFKeyboard;
+			sourceTree = "<group>";
+		};
+		04CEEB0A24423C74002E5E44 /* ResponsiveTFKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				04CEEB0B24423C74002E5E44 /* ResponsiveTFKeyboardTests.swift */,
+				04CEEB0D24423C75002E5E44 /* Info.plist */,
+			);
+			path = ResponsiveTFKeyboardTests;
+			sourceTree = "<group>";
+		};
+		04CEEB1524423C75002E5E44 /* ResponsiveTFKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04CEEB1624423C75002E5E44 /* ResponsiveTFKeyboardUITests.swift */,
+				04CEEB1824423C75002E5E44 /* Info.plist */,
+			);
+			path = ResponsiveTFKeyboardUITests;
+			sourceTree = "<group>";
+		};
+		04CEEB3924423CD2002E5E44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04CEEB3A24423CE7002E5E44 /* ResponsiveTFKeyboardFramework.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04CEEB3B24423CE7002E5E44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CEEB3F24423CE7002E5E44 /* ResponsiveTFKeyboardFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CEEAF024423C72002E5E44 /* ResponsiveTFKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CEEB1B24423C75002E5E44 /* Build configuration list for PBXNativeTarget "ResponsiveTFKeyboard" */;
+			buildPhases = (
+				04CEEAED24423C72002E5E44 /* Sources */,
+				04CEEAEE24423C72002E5E44 /* Frameworks */,
+				04CEEAEF24423C72002E5E44 /* Resources */,
+				04CEEB4224423CF7002E5E44 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CEEB4424423CFF002E5E44 /* PBXTargetDependency */,
+			);
+			name = ResponsiveTFKeyboard;
+			productName = ResponsiveTFKeyboard;
+			productReference = 04CEEAF124423C72002E5E44 /* ResponsiveTFKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04CEEB0624423C74002E5E44 /* ResponsiveTFKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CEEB1E24423C75002E5E44 /* Build configuration list for PBXNativeTarget "ResponsiveTFKeyboardTests" */;
+			buildPhases = (
+				04CEEB0324423C74002E5E44 /* Sources */,
+				04CEEB0424423C74002E5E44 /* Frameworks */,
+				04CEEB0524423C74002E5E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CEEB0924423C74002E5E44 /* PBXTargetDependency */,
+			);
+			name = ResponsiveTFKeyboardTests;
+			productName = ResponsiveTFKeyboardTests;
+			productReference = 04CEEB0724423C74002E5E44 /* ResponsiveTFKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04CEEB1124423C75002E5E44 /* ResponsiveTFKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CEEB2124423C75002E5E44 /* Build configuration list for PBXNativeTarget "ResponsiveTFKeyboardUITests" */;
+			buildPhases = (
+				04CEEB0E24423C75002E5E44 /* Sources */,
+				04CEEB0F24423C75002E5E44 /* Frameworks */,
+				04CEEB1024423C75002E5E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CEEB1424423C75002E5E44 /* PBXTargetDependency */,
+			);
+			name = ResponsiveTFKeyboardUITests;
+			productName = ResponsiveTFKeyboardUITests;
+			productReference = 04CEEB1224423C75002E5E44 /* ResponsiveTFKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CEEAE924423C72002E5E44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "FGT MAC";
+				TargetAttributes = {
+					04CEEAF024423C72002E5E44 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					04CEEB0624423C74002E5E44 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 04CEEAF024423C72002E5E44;
+					};
+					04CEEB1124423C75002E5E44 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 04CEEAF024423C72002E5E44;
+					};
+				};
+			};
+			buildConfigurationList = 04CEEAEC24423C72002E5E44 /* Build configuration list for PBXProject "ResponsiveTFKeyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CEEAE824423C72002E5E44;
+			productRefGroup = 04CEEAF224423C72002E5E44 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 04CEEB3B24423CE7002E5E44 /* Products */;
+					ProjectRef = 04CEEB3A24423CE7002E5E44 /* ResponsiveTFKeyboardFramework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				04CEEAF024423C72002E5E44 /* ResponsiveTFKeyboard */,
+				04CEEB0624423C74002E5E44 /* ResponsiveTFKeyboardTests */,
+				04CEEB1124423C75002E5E44 /* ResponsiveTFKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		04CEEB3F24423CE7002E5E44 /* ResponsiveTFKeyboardFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ResponsiveTFKeyboardFramework.framework;
+			remoteRef = 04CEEB3E24423CE7002E5E44 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CEEAEF24423C72002E5E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CEEB0124423C74002E5E44 /* LaunchScreen.storyboard in Resources */,
+				04CEEAFE24423C74002E5E44 /* Assets.xcassets in Resources */,
+				04CEEAFC24423C72002E5E44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEEB0524423C74002E5E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEEB1024423C75002E5E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CEEAED24423C72002E5E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CEEAF924423C72002E5E44 /* ViewController.swift in Sources */,
+				04CEEAF524423C72002E5E44 /* AppDelegate.swift in Sources */,
+				04CEEAF724423C72002E5E44 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEEB0324423C74002E5E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CEEB0C24423C74002E5E44 /* ResponsiveTFKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEEB0E24423C75002E5E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CEEB1724423C75002E5E44 /* ResponsiveTFKeyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04CEEB0924423C74002E5E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CEEAF024423C72002E5E44 /* ResponsiveTFKeyboard */;
+			targetProxy = 04CEEB0824423C74002E5E44 /* PBXContainerItemProxy */;
+		};
+		04CEEB1424423C75002E5E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CEEAF024423C72002E5E44 /* ResponsiveTFKeyboard */;
+			targetProxy = 04CEEB1324423C75002E5E44 /* PBXContainerItemProxy */;
+		};
+		04CEEB4424423CFF002E5E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ResponsiveTFKeyboardFramework;
+			targetProxy = 04CEEB4324423CFF002E5E44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04CEEAFA24423C72002E5E44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CEEAFB24423C72002E5E44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04CEEAFF24423C74002E5E44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CEEB0024423C74002E5E44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CEEB1924423C75002E5E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04CEEB1A24423C75002E5E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CEEB1C24423C75002E5E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3P8URX7UV;
+				INFOPLIST_FILE = ResponsiveTFKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.productions.fritzgt.ResponsiveTFKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04CEEB1D24423C75002E5E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3P8URX7UV;
+				INFOPLIST_FILE = ResponsiveTFKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.productions.fritzgt.ResponsiveTFKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04CEEB1F24423C75002E5E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3P8URX7UV;
+				INFOPLIST_FILE = ResponsiveTFKeyboardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.productions.fritzgt.ResponsiveTFKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResponsiveTFKeyboard.app/ResponsiveTFKeyboard";
+			};
+			name = Debug;
+		};
+		04CEEB2024423C75002E5E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3P8URX7UV;
+				INFOPLIST_FILE = ResponsiveTFKeyboardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.productions.fritzgt.ResponsiveTFKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResponsiveTFKeyboard.app/ResponsiveTFKeyboard";
+			};
+			name = Release;
+		};
+		04CEEB2224423C75002E5E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3P8URX7UV;
+				INFOPLIST_FILE = ResponsiveTFKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.productions.fritzgt.ResponsiveTFKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ResponsiveTFKeyboard;
+			};
+			name = Debug;
+		};
+		04CEEB2324423C75002E5E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3P8URX7UV;
+				INFOPLIST_FILE = ResponsiveTFKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.productions.fritzgt.ResponsiveTFKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ResponsiveTFKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CEEAEC24423C72002E5E44 /* Build configuration list for PBXProject "ResponsiveTFKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CEEB1924423C75002E5E44 /* Debug */,
+				04CEEB1A24423C75002E5E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CEEB1B24423C75002E5E44 /* Build configuration list for PBXNativeTarget "ResponsiveTFKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CEEB1C24423C75002E5E44 /* Debug */,
+				04CEEB1D24423C75002E5E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CEEB1E24423C75002E5E44 /* Build configuration list for PBXNativeTarget "ResponsiveTFKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CEEB1F24423C75002E5E44 /* Debug */,
+				04CEEB2024423C75002E5E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CEEB2124423C75002E5E44 /* Build configuration list for PBXNativeTarget "ResponsiveTFKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CEEB2224423C75002E5E44 /* Debug */,
+				04CEEB2324423C75002E5E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CEEAE924423C72002E5E44 /* Project object */;
+}
