@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		04CEEB3324423CA1002E5E44 /* ResponsiveTFKeyboardFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CEEB3124423CA1002E5E44 /* ResponsiveTFKeyboardFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CEEB4624423DBB002E5E44 /* ResponsiveKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEEB4524423DBB002E5E44 /* ResponsiveKeyboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04CEEB2E24423CA1002E5E44 /* ResponsiveTFKeyboardFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ResponsiveTFKeyboardFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CEEB3124423CA1002E5E44 /* ResponsiveTFKeyboardFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponsiveTFKeyboardFramework.h; sourceTree = "<group>"; };
 		04CEEB3224423CA1002E5E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CEEB4524423DBB002E5E44 /* ResponsiveKeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsiveKeyboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				04CEEB3124423CA1002E5E44 /* ResponsiveTFKeyboardFramework.h */,
 				04CEEB3224423CA1002E5E44 /* Info.plist */,
+				04CEEB4524423DBB002E5E44 /* ResponsiveKeyboardViewController.swift */,
 			);
 			path = ResponsiveTFKeyboardFramework;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					04CEEB2D24423CA1002E5E44 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CEEB4624423DBB002E5E44 /* ResponsiveKeyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		04CEEB3724423CA1002E5E44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = N3P8URX7UV;
@@ -276,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.productions.fritzgt.ResponsiveTFKeyboardFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +291,7 @@
 		04CEEB3824423CA1002E5E44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = N3P8URX7UV;

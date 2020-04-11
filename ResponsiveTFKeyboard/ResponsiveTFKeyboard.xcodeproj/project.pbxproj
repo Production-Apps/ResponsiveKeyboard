@@ -111,8 +111,8 @@
 		04CEEAE824423C72002E5E44 = {
 			isa = PBXGroup;
 			children = (
-				04CEEB3924423CD2002E5E44 /* Frameworks */,
 				04CEEAF324423C72002E5E44 /* ResponsiveTFKeyboard */,
+				04CEEB3924423CD2002E5E44 /* Frameworks */,
 				04CEEB0A24423C74002E5E44 /* ResponsiveTFKeyboardTests */,
 				04CEEB1524423C75002E5E44 /* ResponsiveTFKeyboardUITests */,
 				04CEEAF224423C72002E5E44 /* Products */,
