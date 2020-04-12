@@ -13,18 +13,20 @@ class ViewController: ResponsiveKeyboardViewController {
 
 
     @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var textFieldOutlet: UITextField!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        textFieldOutlet.delegate = self
         
-        self.customHeight = 100
+        self.customHeight = 0
+        self.clearTextFieldWhenReturnKeyPressed = true
     }
 
     @IBAction func textField(_ sender: UITextField) {
-        print(sender.text!)
-       label.text =  sender.text!
+       label.text =  sender.text
     }
     
     

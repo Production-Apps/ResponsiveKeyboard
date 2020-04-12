@@ -12,8 +12,19 @@ import UIKit
 /// Subclassing ResponsiveKeyboardViewController (which includes UIViewController)  will add the functionality needed in order to automatically  adjust the view layout when the keyboard appears so that the textFields can still be visible while typing.
 open class ResponsiveKeyboardViewController: UIViewController {
     
+    
+    //MARK: - Properties
+    
+    
+    ///Adjust the layout heigh by passing a Float
     public var customHeight: Float = 0
-
+    
+    
+    /// When enable it will clear the textField when the user press the return button
+    public var clearTextFieldWhenReturnKeyPressed: Bool = false
+    
+    //MARK: - Methods
+    
     open override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -48,7 +59,20 @@ open class ResponsiveKeyboardViewController: UIViewController {
             view.frame.origin.y = 0
         }
     }
+}
 
+extension ResponsiveKeyboardViewController: UITextFieldDelegate {
     
+    public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
 
+        self.view.endEditing(true)
+       
+        if clearTextFieldWhenReturnKeyPressed {
+            textField.text = ""
+        }
+        
+        return true
+    }
+    
+  
 }

@@ -48,9 +48,9 @@
 		04CEEB3024423CA1002E5E44 /* ResponsiveTFKeyboardFramework */ = {
 			isa = PBXGroup;
 			children = (
+				04CEEB4524423DBB002E5E44 /* ResponsiveKeyboardViewController.swift */,
 				04CEEB3124423CA1002E5E44 /* ResponsiveTFKeyboardFramework.h */,
 				04CEEB3224423CA1002E5E44 /* Info.plist */,
-				04CEEB4524423DBB002E5E44 /* ResponsiveKeyboardViewController.swift */,
 			);
 			path = ResponsiveTFKeyboardFramework;
 			sourceTree = "<group>";

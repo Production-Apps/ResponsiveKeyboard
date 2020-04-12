@@ -132,12 +132,9 @@
 		04CEEAF324423C72002E5E44 /* ResponsiveTFKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				04CEEAF424423C72002E5E44 /* AppDelegate.swift */,
-				04CEEAF624423C72002E5E44 /* SceneDelegate.swift */,
-				04CEEAF824423C72002E5E44 /* ViewController.swift */,
-				04CEEAFA24423C72002E5E44 /* Main.storyboard */,
-				04CEEAFD24423C74002E5E44 /* Assets.xcassets */,
-				04CEEAFF24423C74002E5E44 /* LaunchScreen.storyboard */,
+				04CEEB4A24436FF9002E5E44 /* View Controllers */,
+				04CEEB4924436FED002E5E44 /* Views */,
+				04CEEB4B2443700A002E5E44 /* Resources */,
 				04CEEB0224423C74002E5E44 /* Info.plist */,
 			);
 			path = ResponsiveTFKeyboard;
@@ -175,6 +172,33 @@
 				04CEEB3F24423CE7002E5E44 /* ResponsiveTFKeyboardFramework.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		04CEEB4924436FED002E5E44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04CEEAFA24423C72002E5E44 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04CEEB4A24436FF9002E5E44 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04CEEAF824423C72002E5E44 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		04CEEB4B2443700A002E5E44 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04CEEAFD24423C74002E5E44 /* Assets.xcassets */,
+				04CEEAF624423C72002E5E44 /* SceneDelegate.swift */,
+				04CEEAFF24423C74002E5E44 /* LaunchScreen.storyboard */,
+				04CEEAF424423C72002E5E44 /* AppDelegate.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -27,7 +27,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wAc-d0-csg">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wAc-d0-csg">
                                         <rect key="frame" x="16" y="378" width="382" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="qBt-OW-1bK"/>
@@ -58,6 +58,7 @@
                     </view>
                     <connections>
                         <outlet property="label" destination="CtD-S9-Rzi" id="vk0-a2-jfr"/>
+                        <outlet property="textFieldOutlet" destination="wAc-d0-csg" id="MEw-Ls-Kp6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
