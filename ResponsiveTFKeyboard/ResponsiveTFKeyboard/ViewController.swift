@@ -7,14 +7,27 @@
 //
 
 import UIKit
+import ResponsiveTFKeyboardFramework
 
-class ViewController: UIViewController {
+class ViewController: ResponsiveKeyboardViewController {
 
+
+    @IBOutlet weak var label: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        self.customHeight = 100
     }
 
-
+    @IBAction func textField(_ sender: UITextField) {
+        print(sender.text!)
+       label.text =  sender.text!
+    }
+    
+    
+    
 }
 
